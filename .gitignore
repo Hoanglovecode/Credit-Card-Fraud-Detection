@@ -2,6 +2,9 @@
 creditcard.csv
 *.csv
 
+# Local sub-project directory excluded from repository
+Credit-Card-Fraud-Detection/
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/
 
