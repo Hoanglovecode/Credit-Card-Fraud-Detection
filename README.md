@@ -1,5 +1,7 @@
 # Credit Card Fraud Detection
 
+> 🌐 **Ngôn ngữ / Language:** **Tiếng Việt** | [English (README.en.md)](README.en.md)
+
 Dự án xây dựng mô hình Học máy (**Machine Learning**) nhằm phát hiện giao dịch thẻ tín dụng gian lận (**Credit Card Fraud Detection**) trên bộ dữ liệu giao dịch thực tế có độ mất cân bằng lớp rất cao (*highly imbalanced dataset*).
 
 Dự án thực hiện toàn bộ quy trình từ khám phá dữ liệu (**EDA**), tiền xử lý (**StandardScaler**), huấn luyện và so sánh hai mô hình (**Random Forest** và **Logistic Regression**) trên tập Validation, đến huấn luyện lại mô hình tốt nhất trên tập dữ liệu gộp (`Train + Validation`) và đánh giá khách quan trên tập Test độc lập.
@@ -56,7 +58,8 @@ Trong thực tế tài chính – ngân hàng, các giao dịch gian lận chỉ
 ```text
 Credit-Card-Fraud-Detection/
 ├── creditcard.ipynb    # Jupyter Notebook chứa toàn bộ code EDA, huấn luyện & đánh giá
-├── README.md           # Tài liệu mô tả chi tiết dự án
+├── README.md           # Tài liệu mô tả chi tiết dự án (Tiếng Việt)
+├── README.en.md        # Tài liệu mô tả chi tiết dự án (Tiếng Anh / English)
 ├── .gitignore          # Loại trừ file dữ liệu lớn (*.csv) và các file tạm của Python/Jupyter
 └── creditcard.csv      # (Tải riêng từ Kaggle, đặt cùng thư mục gốc khi chạy)
 ```
