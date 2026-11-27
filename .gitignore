@@ -1,0 +1,19 @@
+# Dataset (exceeds GitHub 100 MB file size limit)
+creditcard.csv
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python cache & virtual environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Environment variables & OS files
+.env
+.DS_Store
+Thumbs.db
